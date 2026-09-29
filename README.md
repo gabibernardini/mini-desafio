@@ -20,13 +20,21 @@ O objetivo é criar uma página de portfólio limpa, organizada e funcional, uti
 O projeto contém:
 
 -Cabeçalho com nome/cargo e menu de navegação;
+
 -Seção Sobre Mim com foto de perfil de 150x150 pixels;
+
 -Texto de apresentação e lista de habilidades;
+
 -Seção Meus Projetos com tabela de informações;
+
 -Tabela contendo projeto, tecnologias, status e links;
+
 -Links de navegação interna através de âncoras;
+
 -Seção Entre em Contato com formulário;
+
 -Campos para nome, e-mail, assunto e mensagem;
+
 -Rodapé com direitos autorais e informações de contato.
 
 # 🛠️ Ferramentas e Tecnologias utilizadas
@@ -34,5 +42,7 @@ O projeto contém:
 O projeto foi desenvolvido utilizando:
 
 -HTML5: Estruturação semântica e organização do conteúdo;
+
 -VS Code: Editor utilizado para desenvolvimento e edição do código;
+
 -Navegador Web: Utilizado para visualizar e testar a página.
