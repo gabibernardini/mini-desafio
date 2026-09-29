@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio / Currículo Web de um desenvolvedor</title>
+</head>
+<body>
+    <body style="background-color: #ffcbdb;"></body> <!-- Cor de fundo no body -->
+    <h1 style="color: #4D0936">Gabriella Bernardini - Estudante de Desenvolvimento de Sistemas</h1>
+
+    <ul style="list-style-type: square;">
+        <li><a href="#sobre" target="_blank">Sobre</a></li>
+        <li><a href="#projetos" target="_blank">Projetos</a></li>
+        <li><a href="#contato" target="_blank">Contato</a></li>
+    </ul>
+    <hr>
+    <section id="sobre"> 
+        <h2 style="color: #4D0936">Sobre mim:</h2>
+        <img src="assets/788002aa-e0f2-4197-b232-ba062326e684.png" alt="Foto pessoal" width="250" height="250">
+
+    <p>Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI.</p>
+    <p>Tenho conhecimento em<em> HTML, CSS </em>e estou aprendendo JavaScript.</p>
+
+        <h2 style="color: #4D0936">Minhas Habilidades:</h2>
+
+    <ul style="list-style-type: square;">
+        <li>Linguagens de Programação;</li>
+        <li>UX Design;</li>
+        <li>Metodologias Ágeis;</li>
+        <li>CSS.</li>
+    </ul>
+    </section>
+    
+    <section id="projetos">
+        <h2 style="color: #4D0936">Meus Projetos:</h2>
+
+     <table border="1" cellpadding="10" width="50%">
+        <!-- Cabeçalho da tabela -->
+         <thead>
+            <tr>
+                <th>Projetos</th>
+                <th>Tecnologias</th>
+                <th>Status</th>
+                <th>Link</th>
+            </tr>
+         </thead>
+         <!-- Corpo da Tabela -->
+          <tbody>
+            <tr>
+                <td>Projeto de filme</td>
+                <td>VS Code, HTML.</td>
+                <td>Concluído.</td>
+                <td><a href="https://github.com/gabibernardini/Projeto-Filme" target="_blank">Ver Projeto</a></td>
+            </tr>
+             <tr>
+                <td>Projeto GameZone</td>
+                <td>VS Code, HTML.</td>
+                <td>Concluído.</td>
+                <td><a href="https://github.com/gabibernardini/gamezone-lojaretro" target="_blank">Ver Projeto</a></td>
+            </tr>
+             <tr>
+                <td>Projeto Spotify</td>
+                <td>Figma.</td>
+                <td>Concluído.</td>
+                <td><a href="https://www.figma.com/design/9Sg8hdnyf8ptbhxO9aqZFk/Sem-t%25C3%25ADtulo?node-id=0-1&p=f" target="_blank">Ver Projeto</a>
+                </td>
+            </tr>
+          </tbody>
+     </table>
+    </section>
+    <hr>
+
+    <section id="contato">
+     <h2 style="color: #4D0936">Entre em Contato:</h2>
+
+     <form>
+        <fieldset>
+            <legend>Dados do Contato</legend>
+     <!-- Campo de texto simples -->
+         <label for="nome">Nome completo: </label><br>
+         <input type="text" id="nome" name="nome" required><br><br> 
+         
+    <!-- Campo de e-mail com validação -->
+         <label for="email">Email: </label><br>
+         <input type="email" id="email" name="email" required><br><br> 
+
+    <!-- Lista de Seleção (select) -->
+           <label for="assunto">Assunto:</label><br>
+           <select id="assunto" name="assunto">
+            <option value="duvida">Oportunidade de trabalho</option>
+            <option value="sugestão">Sugestão</option>
+            <option value="reclamacao">Reclamação</option>
+           </select><br><br>
+
+           <!-- Àrea de texto -->
+            <label for="mensagem">Mensagem: </label><br>
+            <textarea name="mensagem" id="mensagem" rows="4" cols="50"></textarea><br><br>
+
+            <!-- Botões do formulário -->
+            <button type="submit">Enviar mensagem</button>
+         </fieldset>
+     </form>
+     </section>
+
+     <p>&copy; 2026 Meta. Desenvolvido durante o curso do SENAI.</p>
+     <hr>
+
+     <address>
+        Contato: <a href="malito: gabriellabernardinigc@gmail.com">gabriellabernardinigc@gmail.com |</a>
+
+        <a href="tel: 11 96714-1138">11 96714-1138</a>
+     </address>
+
+</body>
+</html>
