@@ -3,8 +3,11 @@
 # 👤 Aluna
 
 Nome: Gabriella Bernardini Grenzi Cavadinha
+
 Turma: 1 IG-DS
+
 Disciplina: Desenvolvimento de Sistemas
+
 Professor: Raul/André Luis Denani
 
 # 📌 Sobre o projeto
